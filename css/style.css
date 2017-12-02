@@ -887,22 +887,24 @@ border: 2px solid #fff;
 			align-items: center;
   }
   .sign__wordh {
-	font-size: 6.6rem;
+	font-size: 46px;
 	text-align: center;
 	line-height: 1;
 	padding: 20px;
 	color: #c6e2ff;
 	-webkit-animation: neon .08s ease-in-out infinite alternate;
 			animation: neon .08s ease-in-out infinite alternate;
+	-webkit-text-size-adjust: 100%;
   }
   .sign__wordl {
-	font-size: 4.6rem;
+	font-size: 200%;
 	text-align: center;
 	line-height: 1;
 	padding: 20px;
 	color: #c6e2ff;
 	-webkit-animation: neon .08s ease-in-out infinite alternate;
 			animation: neon .08s ease-in-out infinite alternate;
+	-webkit-text-size-adjust: 100%;
   }
   
   /*-- Animation Keyframes --*/

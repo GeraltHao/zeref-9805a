@@ -1,0 +1,11 @@
+/*****************************
+ All rights reserved.
+ AllFont.ru (c) 2011-2015
+ *****************************/
+@font-face {
+    font-family: 'BrushType Normal';
+    font-style: normal;
+    font-weight: 400;
+    src:    url('../fonts/brushtype-normal.woff') format('woff');
+    src:    url('../fonts/brushtype-normal.ttf') format('truetype');
+}
