@@ -94,6 +94,9 @@ p{
 
 /* Header Styles
 ---------------------------------*/
+.round {
+border-radius: 50%; /* Превращаем в круг */
+   }
 
 .header{
 	text-align:center;
