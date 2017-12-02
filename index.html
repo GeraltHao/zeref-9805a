@@ -6,9 +6,14 @@
 	<meta name="viewport" content="width=device-width, maximum-scale=1">
 
 	<title>Виктор</title>
+	<!--neon-->
+	<link href="http://allfont.ru/allfont.css?fonts=brushtype-normal" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
 	<link rel="icon" href="favicon.png" type="image/png">
 	<link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
-
+	<link href="css/button css gradient.css" rel="stylesheet" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
 
@@ -17,7 +22,8 @@
 	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
 	<link href="css/responsive.css" rel="stylesheet" type="text/css">
 	<link href="css/animate.css" rel="stylesheet" type="text/css">
-
+	
+	
 	<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
@@ -33,17 +39,19 @@
 	<header class="header" id="header">
 		<!--header-start-->
 		<div class="container">
-			<figure class="logo animated fadeInDown delay-07s">
+			<div class="sign">
+				<figure class="logo animated fadeInDown delay-07s">
 				<a href="#"><img src="img/logo.png" alt=""></a>
-			</figure>
-			<h1 class="animated fadeInDown delay-07s">Добро пожаловать на мою персональную страницу</h1>
-			<ul class="we-create animated fadeInUp delay-1s">
-				<li>Тут вы сможете узнать о том, какие услуги я предоставляю, и о том, как связаться со мной.</li>
-			</ul>
-			<a class="link animated fadeInUp delay-1s servicelink" href="#service">Посмотреть</a>
+				</figure>
+				<span class="sign__wordh">Добро пожаловать на мою персональную страницу</span>
+				<span class="sign__wordl">Тут вы сможете узнать о том, какие услуги я предоставляю, и о том, как связаться со мной</span>
+			</div>
+			<a class="link animated fadeInUp delay-1s servicelink"  href="#service">Посмотреть</a>
 		</div>
 	</header>
 	<!--header-end-->
+
+
 
 	<nav class="main-nav-outer" id="test">
 		<!--main-nav-start-->
@@ -167,7 +175,7 @@
 		<!--business-talking-start-->
 		<div class="container">
 			<h2>
-				<a class="btn btn-primary btn-lg" href="tel:89001204757">Позвонить! </a>
+					<div class="gradient-border" id="boxb"><a class="btn btn-primary btn-lg" href="tel:89001204757">Позвонить! </a></div>
 			</h2>
 		</div>
 	</section>
@@ -201,7 +209,7 @@
 			<div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>
 			<span class="copyright">&copy; Виктор</span>
 			<div class="credits">
-				Моя страничка во <a href="https://vk.com/gerald95" target="_blank">Вконтакте</a>
+				Моя страничка в <a href="https://vk.com/gerald95" target="_blank">Вконтакте</a>
 			</div>
 		</div>
 	</footer>
