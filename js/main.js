@@ -7,7 +7,6 @@
 /*
  * Custom
  */
-
  //= partials/jquery.1.8.3.min.js
 //= partials/bootstrap.js
 //= partials/jquery-scrolltofixed.js
