@@ -17,6 +17,18 @@
 </head>
 
 <body>
+		<script type="text/javascript"> 
+			// Скрипт для отображения страницы только после её полной загрузки
+			function init() {
+			// выходим, если функция уже выполнялась
+			if (arguments.callee.done) return;
+			// устанавливаем флаг, чтобы функция не исполнялась дважды
+			arguments.callee.done = true;
+			$('.main').show();
+			};
+			window.onload = init;
+		</script>
+
 	//= template/body.html
     //= template/footer.html
 	//= template/js.html
